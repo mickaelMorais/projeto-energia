@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corta Luz</title>
+</head>
+<body>
+
+    <header>
+        <!-- <img class="logo" src="img/logo.png" alt=""> -->
+           <h1 class="Eletric-Spark">Eletric Spark</h1>
+        <nav class="navigation">
+            <a href="#pro">PROBLEMÁTICA</a>
+            <a href="#me">METODOLOGIA</a>
+            <a href="#so">SOLUÇÃO</a>
+            <a href="#de">DEMONSTRAÇÃO</a>
+       </nav>
+   </header>
+
+    <main> 
+      <section>
+            <h1 class="problematica" id="pro">Problemática</h1>
+            <p class="paragrafo-1">
+                A iluminação pública é direito da população e quem assegura a qualidade da prestação deste serviço na capital <br>
+
+                alagoana é a Superintendência Municipal de Iluminação Pública (Sima), que todos os dias, conta com equipes nas <br> 
+
+                ruas, de manhã, à tarde e à noite.É competência do Sima a instalação e a manutenção do parque de iluminação em <br> 
+
+                ruas, praças e quadras, por exemplo.
+            </p>
+
+            <div class="container-img-p">
+                <img class="imagem" src="img/homem.png" width="800px" height="" alt="">
+                <p><em>Superintendente da Sima, João Folha</em></p>
+             </div>
+
+            <p class="paragrafo-2">
+                "A maioria das solicitações que chegam à Sima é via imprensa e parte significativa sequer foi registrada nos <br> 
+
+                nossos sistemas. Nosso trabalho é atender solicitações independente de onde partam, mas é importante que a população <br> 
+
+                saiba que existe um canal específico para esses atendimentos e que as solicitações são rápidas e podem ser acompanhadas <br> 
+
+                inclusive via protocolos", detalhou superintendente de Iluminação Pública de Maceió, João Folha.
+
+            </p>
+
+            <p class="paragrafo-3">
+
+                Só este ano, já foram registradas 14 grandes ocorrências, dos seis maiores blecautes registrados no mundo desde 1965,<br> 
+
+                três foram no País. Dez anos depois de mergulhar no maior racionamento da história, o Brasil volta a conviver com <br>
+
+                problemas no setor elétrico.
+
+            </p> 
+
+            <hr>
+
+
+            <h1 class="metodologia" id="me">Metodologia</h1>
+            <div>
+                <h3 class="seguintes-etapas">A metodologia para monitoramento de poste pode envolver as seguintes etapas:</h3> 
+                  <ul class="caixa-metodologia">
+                       <li>Identificar os postes que precisam ser monitorados: <br> Isso pode ser feito com base em critérios como idade, <br>
+                        localização, histórico de manutenção e uso.</li> <br>
+
+                        <li>Escolher os sensores: Os sensores podem ser escolhidos <br> com base nas informações que você deseja coletar. <br>
+                         Alguns exemplos incluem sensores de vibração, sensores de <br> temperatura, sensores de umidade, câmeras de <br>
+                         vídeo e sensores de fumaça.</li> <br>
+
+
+                         <li>Instalar os sensores: Os sensores devem ser instalados <br> nos postes de acordo com as instruções do fabricante. <br>
+                         É importante garantir que os sensores estejam seguros e protegidos <br> contra danos e interferências externas.</li> <br>
+
+
+                         <li>Configurar o sistema de monitoramento: O sistema de <br> monitoramento deve ser configurado para receber os <br>
+                         dados dos sensores e enviar alertas quando ocorrerem anomalias.</li> <br>
+
+
+                         <li>Analisar os dados: Os dados coletados pelos sensores devem <br> ser analisados regularmente para detectar qualquer <br>
+                         problema ou necessidade de manutenção. É importante ter um plano <br> de ação para lidar com os problemas detectados.</li> <br>
+
+
+                         <li>Analisar os dados: Os dados coletados pelos sensores devem <br> ser analisados regularmente para detectar qualquer <br>
+                         problema ou necessidade de manutenção. É importante ter um plano <br> de ação para lidar com os problemas detectados.</li> <br>
+                     </ul>
+            </div>
+        </section>
+            
+             <hr>
+     
+        <section>
+            <h1 class="solucao" id="so">Solução</h1>
+            <p class="paragrafo-4">
+                Pensando nisso, criamos um sistema que funcionará em conjunto com a Sima que irá monitorar o poste de luz pela <br> 
+                cidade utilizando sensores de luz.Quando o sensor para de receber luz solar a luz do poste ativa e é enviado <br>
+                um status para o sistema da equatorial. 
+            </p>
+             <br>
+            
+                <p class="cores">Os status são: <br></p>
+                <br>
+                <p class="p-Verde">Verde - Postes com até 80% de bateria <br></p>
+                <p class="p-Amarelo">Amarelo - Postes com até 50% de bateria <br></p>
+                <p class="p-Laranja">Laranja: Postes com até 15% de bateria <br></p>
+                <p class="p-Vermelho"> Vermelho - Postes que as luzes queimaram <br></p>
+                <br>
+                <p class="cores"> Caso a luz do poste não ligue o sistema enviará o alerta vermelho para a Sima que pelo protocolo enviará uma equipe para o local.</p>
+        
+           
+            <hr>
+        </section>
+        <section class="demo">
+            <h1 class="demonstracao" id="de">Demonstração</h1>
+            <img class="mapa" src="img/Captura de Tela (1) 1.png">
+            <button class="btn-demo" onclick="iniciar()">iniciar demonstração</button>
+            <div class="localizadores"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

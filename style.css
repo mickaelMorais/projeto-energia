@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+
+/* INICIO CABECALHO */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Eletric-Spark{
+    color: #fff;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.navigation a{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: sans-serif;
+    top: 6px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+   transform: scaleX(1);
+}
+/* FIM CABECALHO */
+main{
+    margin-top: 130px;
+}
+/* INICIO PROBLEMATICA */
+.problematica{
+    padding: 10px;  
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 58px;
+    text-align: center;
+    margin-top: 90px;
+    color: #fff;
+}
+.paragrafo-1{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-img-p{
+    text-align: center;
+    color: #fff;
+}
+.imagem{
+    box-shadow: 2px 1px 5px #fff;
+    width: 50%;
+}
+
+.paragrafo-2{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.paragrafo-3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/* FIM PROBLEMATICA */
+
+/* INICIO METODOLOGIA */
+.metodologia{
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Delicious Handrawn', cursive;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.seguintes-etapas{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.caixa-metodologia{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+/* FIM METODOLOGIA */
+
+
+/* INICIO SOLUCAO */
+.solucao{
+    text-align: center;
+    font-size: 58px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.paragrafo-4{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.cores{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.p-Verde{
+    color: green;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.p-Amarelo{
+   color: yellow;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+
+.p-Laranja{
+   color: orange;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+
+.p-Vermelho{
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* FIM SOLUCAO */
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* INICIO DEMOSTRAÇÃO */
+.demo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.demonstracao{
+    color: #fff;
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 58px;
+    margin-top: 10px;
+}
+.mapa{
+    width: 50%;
+}
+.btn-demo{
+    background-color: #A52A2A;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+.localizador{
+    position: relative;
+    bottom: 500px;
+    left: 295px;
+}
+footer{
+    background-color: #A52A2A;
+    text-align: center;
+    color: #fff;
+    padding: 4px;
+}
